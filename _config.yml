@@ -1,4 +1,4 @@
-name: MStrutt.co.uk
+name: junaedahmed.github.io
 markdown: kramdown
 kramdown:
   input: GFM
@@ -7,4 +7,4 @@ pygments: true
 permalink: /blog/:year/:month/:title/
 category_title_prefix: "Blog posts tagged with: "
 category_dir: /blog/tags/
-url: http://mstrutt.co.uk
+url: https://junaedahmed.github.io
