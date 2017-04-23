@@ -35,6 +35,7 @@
 	</head>
 	<body class="{{ page.class }}">
 		<div style="display: none;">
+			{% include icons.svg %}
 		</div>
 
 		<aside class="see-my-code" style="display: none;">
@@ -50,7 +51,7 @@
 		{{ content }}
 
 		<footer class="footer">
-		<!--	{% include social-links.html %} -->
+			{% include social-links.html %}
 
 			<p class="copyright"> Copyright Michael Strutt &copy; 2007 - {{ site.time | date: '%Y' }}</p>
 
