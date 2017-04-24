@@ -176,9 +176,9 @@ body {
     top: -79px;
     left: 9px;
     display: inline-block;
-    height: 88px;
-    width: 88px;
-    font: 50px/96px "Enriqueta", serif;
+    height: 100px;
+    width: 100px;
+    font: 70px/96px "Enriqueta", serif;
     border-radius: 50%;
     background: url("/assets/images/noise.png") #3E3E3E;
     color: #FFFFFF;
