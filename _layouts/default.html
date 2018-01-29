@@ -14,7 +14,7 @@ layout: page
 
 	<div class="header-text {% if page.class == 'home' %}h-card{% endif %}">
 		<a class="logo u-logo" href="/" title="home">JA</a>
-		
+
 		<h1 class="title">{% if page.header %}{{ page.header }}{% else %}{{ page.title }}{% endif %}</h1>
 
 		{% if page.subheader %}{{ page.subheader }}{% endif %}
@@ -27,7 +27,7 @@ layout: page
 			</div>
 
 			<div class="header-text-lower">
-				<p class="subtitle">a <strong class="p-job-title">back-end web developer</strong> based in <span class="p-locality">Bangladesh</span></p>
+				<p class="subtitle">a <strong class="p-job-title">Python enthusiast</strong> based in <span class="p-locality">Bangladesh</span></p>
 				{% include social-links.html %}
 			</div>
 
@@ -38,4 +38,4 @@ layout: page
 
 <div class="main {% if page.class == 'home' %}h-resume{% endif %}" role="main">
 	{{ content }}
-</div>	
+</div>
